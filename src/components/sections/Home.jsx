@@ -12,7 +12,7 @@ export const Home = () => {
         </h1>
 
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-        My name is Yonnik and I’m a full-stack web developer who enjoys building clean, performant applications with a strong focus on user experience. I’ve worked across the front end and back end, and I’m eager to keep learning while contributing to real-world teams and projects.
+       Hi, I’m Yonnik — a junior full-stack developer with a focus on building responsive, real-time apps using modern JavaScript tools.
         </p>
 
         <div className="flex justify-center space-x-4">
