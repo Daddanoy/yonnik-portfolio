@@ -35,7 +35,7 @@ export const NavBar=({menuOpen, setMenuOpen})=>{
 
               <a 
             href="#contact" 
-            className="text-gray-300 hover:text-white transition-colors">
+            className="text-gray-300 hover:text-blue-500 transition-colors">
               
               Contact</a>
 
