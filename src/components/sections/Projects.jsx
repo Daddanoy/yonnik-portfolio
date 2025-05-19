@@ -14,7 +14,7 @@ export const Projects = () => {
             <h3 className="text-xl font-bold mb-2 ">E-Hub</h3>
             <p className="text-gray-400 mb-4">A streamlined social hub for managing friendships, events, and conversations—all in one place. </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Express", "Cloudinary","Lucide","Toaster","Mongo","Sockets" ].map((tech,key)=>(
+              {["React", "Express", "Cloudinary","Mongo","Sockets" ].map((tech,key)=>(
                 <span className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition" key={key}>{tech}
                 </span>
               ))}
