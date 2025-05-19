@@ -11,7 +11,7 @@ export const Projects = () => {
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
-            <h3 className="text-xl font-bold mb-2 ">Lykahub</h3>
+            <h3 className="text-xl font-bold mb-2 ">E-Hub</h3>
             <p className="text-gray-400 mb-4">A streamlined social hub for managing friendships, events, and conversations—all in one place. </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "Express", "Cloudinary","Lucide","Toaster","Mongo","Sockets" ].map((tech,key)=>(
@@ -42,7 +42,7 @@ export const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
-            <h3 className="text-xl font-bold mb-2 ">Lykahub-Demo</h3>
+            <h3 className="text-xl font-bold mb-2 ">E-Hub-Demo</h3>
               <p className="text-gray-400 mb-4">Feature walk-through of the Lykahub project.</p>
   <video
     src={ehubDemo}
