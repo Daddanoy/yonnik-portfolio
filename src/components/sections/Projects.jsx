@@ -18,6 +18,12 @@ export const Projects = () => {
                 <span className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition" key={key}>{tech}
                 </span>
               ))}
+               <ul className="project-features flex flex-col gap-y-3 pl-5 list-disc ">
+      <li> <strong>Real-Time Chat</strong>: Socket.io-powered messaging </li>
+      <li><strong>Friend System</strong>: Send/accept requests and track connections (MongoDB relations)</li>
+      <li> <strong>Event Attendance</strong>: Join/cancel events </li>
+      <li> <strong>Profile Customization</strong>: Upload photos via Cloudinary and edit bios</li>
+    </ul>
             </div>
 
             <div className="flex justify-between items-center">
@@ -28,16 +34,28 @@ export const Projects = () => {
           <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
             <h3 className="text-xl font-bold mb-2 ">TableDay</h3>
             <p className="text-gray-400 mb-4">A term based data visualization tool for tracking learning progress</p>
+            
+            
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "Mongo", "Express",  ].map((tech,key)=>(
                 <span className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition" key={key}>{tech}
                 </span>
+                
               ))}
+               <ul className="project-features project-features flex flex-col gap-y-3 pl-5 list-disc ">
+      <li> <strong>Dynamic Data Tables</strong>: Filter students by term (Zustand-managed state)</li>
+      <li> <strong>Mobile-First Design</strong>: Collapsible views for smaller screens</li>
+      <li><strong>Real-Time Updates</strong>: Edit records live with auto-save to MongoDB</li>
+      <li> <strong>Teacher Workflow</strong>: Reduced grading time significantly</li>
+    </ul>
+              
             </div>
+            
 
             <div className="flex justify-between items-center">
               <a href="https://table-day-1.onrender.com" className="text-blue-400 hover:text-blue-300 transition-colors my-4"  target="_blank" 
   rel="noopener noreferrer">View Project →</a>
+
             </div>
           </div>
 
