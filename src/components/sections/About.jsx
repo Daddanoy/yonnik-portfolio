@@ -13,7 +13,7 @@ export const About = () => {
      
       <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
         <p className="text-gray-300 mb-6">
-        I’m a self-taught developer who started by building small passion projects and quickly got hooked on the full development process — from crafting interfaces to structuring APIs. Along the way, I’ve deepened my understanding through hands-on projects, online courses like CS50, and countless hours of reading, testing, and iterating. I thrive when learning something new and turning that knowledge into something real and usable. My goal now is to join a team where I can grow, contribute, and keep pushing myself toward becoming a better engineer.
+        I’m a self-taught developer who started by building small passion projects and quickly got hooked on the full development process — from crafting interfaces to structuring APIs. Along the way, I’ve deepened my understanding through hands-on projects, online courses, and countless hours of reading, testing, and iterating. I thrive when learning something new and turning that knowledge into something real and usable. My goal now is to join a team where I can grow, contribute, and keep pushing myself toward becoming a better engineer.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
